@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Bootstrap Modal</title>
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <link href="Content/site.css" rel="stylesheet" />
+
+    <script src="Scripts/jquery-2.1.1.js"></script>
+    <script src="Scripts/bootstrap.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Bootstrap Modal</h1>
+        <!-- Button trigger modal -->
+        <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+            Launch demo modal
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ultrices sit amet lacus quis lacinia. Vivamus lobortis elit libero, ac elementum metus pellentesque et. Morbi dictum congue orci, ut egestas mauris consequat ut. Cras et metus odio. Nulla convallis lacinia tempus. Vivamus pellentesque tempor nulla nec aliquet. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam vitae pharetra ex. Nunc lacinia ac turpis ut congue. Integer est ligula, maximus quis pharetra ac, accumsan vitae erat.</p>
+
+                        <p>Vestibulum ullamcorper nibh risus, vitae rhoncus ligula sollicitudin vel. Phasellus eget laoreet lacus. Nullam sagittis tincidunt lacus ut efficitur. Aenean eget nunc non felis ultrices vestibulum eu nec dolor. Ut vel nisi sit amet leo rhoncus mattis eu ut magna. Quisque porta imperdiet libero, id ornare nunc fermentum at. Maecenas vitae nunc imperdiet, accumsan libero eu, finibus tellus. Quisque sed magna sit amet lectus consequat aliquam in non quam. Nam ac aliquet nisi, at tempus ante. Ut semper consequat laoreet. Mauris velit turpis, finibus id iaculis a, bibendum lacinia sem.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
