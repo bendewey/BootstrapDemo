@@ -5,10 +5,10 @@
     <link href="Content/bootstrap.css" rel="stylesheet" />
 </head>
     <body>
-        <nav class="navbar navbar-default">
+        <nav class="navbar navbar-default navbar-static-top">
             <div class="container">
                 <a href="#" class="navbar-brand">Company Name</a>
-                <ul class="nav navbar-nav pull-right">
+                <ul class="nav navbar-nav navbar-right">
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Contact</a></li>
@@ -22,12 +22,19 @@
 
             <p>Vestibulum ullamcorper nibh risus, vitae rhoncus ligula sollicitudin vel. Phasellus eget laoreet lacus. Nullam sagittis tincidunt lacus ut efficitur. Aenean eget nunc non felis ultrices vestibulum eu nec dolor. Ut vel nisi sit amet leo rhoncus mattis eu ut magna. Quisque porta imperdiet libero, id ornare nunc fermentum at. Maecenas vitae nunc imperdiet, accumsan libero eu, finibus tellus. Quisque sed magna sit amet lectus consequat aliquam in non quam. Nam ac aliquet nisi, at tempus ante. Ut semper consequat laoreet. Mauris velit turpis, finibus id iaculis a, bibendum lacinia sem.</p>
             
-            <div class="panel panel-danger">
-                <div class="panel-heading"><span class="glyphicon glyphicon-exclamation-sign"></span> Danger!</div>
-                <div class="panel-body">
-                     Alert!  This is an alert!    
-                </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h2 class="panel-title"> Panel Title</h2>
             </div>
+            <div class="panel-body">
+                The body content of a panel
+            </div>
+        </div>
+        
+        <div class="alert alert-danger">
+            <button class="close">&times;</button>
+            <strong><span class="glyphicon glyphicon-exclamation-sign"></span> Oh no!</strong> Something went wrong, but you can <a href="#" class="alert-link">fix it by clicking here.</a>
+        </div>
         </div>
     </body>
 </html>
