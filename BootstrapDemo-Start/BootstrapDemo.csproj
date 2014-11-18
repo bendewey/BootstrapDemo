@@ -59,6 +59,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="bootstrap-helpers.html" />
     <Content Include="bootstrap-tabs.html" />
     <Content Include="bootstrap-dropdown.html" />
     <Content Include="bootstrap-buttons.html" />
@@ -95,7 +96,6 @@
     <Content Include="bootstrap-styling.html" />
     <Content Include="Content\site.css" />
     <Content Include="packages.config" />
-    <Content Include="Scripts\npm.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
